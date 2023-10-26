@@ -10,7 +10,7 @@
 	},
 	"Orbit": {
 		"primaryBody": "Sun",
-		"semiMajorAxis": 7000
+		"semiMajorAxis": 12000
 	},
 	"Props": {
 		"details": [
