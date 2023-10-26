@@ -1,9 +1,9 @@
 {
   "filename": "NewHorizonsConfig.dll",
   "author": "15e8",
-  "name": "Nova Secret",
+  "name": "NovaSecret",
   "uniqueName": "15e8.NovaSevret",
   "version": "0.0.0",
   "owmlVersion": "2.7.2",
-  "dependencies": [ "xen.NewHorizons" ]
+  "dependencies": ["xen.NewHorizons"]
 }
