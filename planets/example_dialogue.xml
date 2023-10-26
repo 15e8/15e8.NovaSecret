@@ -18,8 +18,12 @@
 				<DialogueTarget>2</DialogueTarget>
 			</DialogueOption>
 			<DialogueOption>
-				<Text>Goodbye.</Text>
+				<Text>who are you?</Text>
 				<DialogueTarget>3</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Goodbye.</Text>
+				<DialogueTarget>4</DialogueTarget>
 			</DialogueOption>
 		</DialogueOptionsList>
 	</DialogueNode>
@@ -46,15 +50,45 @@
 		<DialogueOptionsList>
 			<DialogueOption>
 				<Text>Ok goodbye.</Text>
-				<DialogueTarget>3</DialogueTarget>
+				<DialogueTarget>4</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+	<DialogueNode>
+		<Name>3</Name>
+		<Dialogue>
+			<Page>Hello i am the talking fish.</Page>
+			<Page>I came from the dark brumble.</Page>
+			<Page>My story is:</Page>
+			<Page>My father told me about you, and how u learn about the nomai.</Page>
+			<Page>And sence i alwase want to know u better.</Page>
+			<Page>So i flew to this new planet and I hope u will come to me.</Page>
+			<Page>And here you are, because you came i want to tell u a secret.</Page>
+			<Page>Angler fishes actually can see and after u gone thay laugh at you because you are scard, we know that you are in a time loop</Page>
+			<Page>So we think its ok to eat you because u will come back. </Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Wow thx for saying that you are amazinm. Bye</Text>
+				<DialogueTarget>4</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Wow i can not belive that you did this to me, i don't want to talk with u again.</Text>
+				<DialogueTarget>5</DialogueTarget>
 			</DialogueOption>
 		</DialogueOptionsList>
 	</DialogueNode>
 
 	<DialogueNode>
-		<Name>3</Name>
+		<Name>4</Name>
 		<Dialogue>
 			<Page>Bye bye.</Page>
+		</Dialogue>
+	</DialogueNode>
+	<DialogueNode>
+		<Name>5</Name>
+		<Dialogue>
+			<Page>I am sorry, i didn't want to hurt u. Bye.</Page>
 		</Dialogue>
 	</DialogueNode>
 
