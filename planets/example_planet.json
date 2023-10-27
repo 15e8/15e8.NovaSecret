@@ -59,21 +59,5 @@
 				"radius": 2
 			}
 		]
-	},
-	"Spawn": {
-		"playerSpawn": {
-			"startWithSuit": true,
-			"position": {
-				"x": 0,
-				"y": 0,
-				"z": 0
-			}
-		},
-		"shipSpawn": {
-			"position": {
-				"x": 0,
-				"y": 0,
-				"z": 0}
-		}
 	}
 }
