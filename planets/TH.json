@@ -4,14 +4,15 @@
   "Props": {
     "details": [
       {
-        "path": "Anglerfish_Body/Beast_Anglerfish",
+        "path": "DreamWorld_Body/Sector_DreamWorld/Sector_DreamZone_2/Ghosts_DreamZone_2/GhostNodeMap_HornetHouse/Prefab_IP_GhostBird_Hornet/Ghostbird_IP_ANIM",
         "position": {
           "x": 0,
-          "y": 301,
+          "y": 0,
           "z": 0
         },
         "alignToNormal": true,
         "scale": 0.02,
+        "parentPath": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_StartingCamp/Characters_StartingCamp/Villager_HEA_Slate ",
         "removeChildren": [
           "B_angler_root/B_angler_body01/B_angler_body02/B_angler_antenna01/B_angler_antenna02/B_angler_antenna03/B_angler_antenna04/B_angler_antenna05/B_angler_antenna06/B_angler_antenna07/B_angler_antenna08/B_angler_antenna09/B_angler_antenna10/B_angler_antenna11/B_angler_antenna12_end"
         ],
