@@ -3,9 +3,11 @@
 	"name" : "Nova",
 	"Base": {
 		"groundSize": 500,
-    	"surfaceSize": 505,
+    	"surfaceSize": 500,
     	"surfaceGravity": 20,
-    	"hasMapMarker": true
+    	"hasMapMarker": true,
+		"ambientLight": 0.8
+		
 	},
 	"Orbit": {
 		"primaryBody": "Sun",
