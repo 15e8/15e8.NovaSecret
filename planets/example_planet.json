@@ -31,7 +31,7 @@
     ],
     "signals": [
       {
-        "audio": "OW_NM_WhiteHoleAmbienceL",
+        "audio": "audio/Loreen - Tattoo.mp3",
         "parentPath": "Sector/Talking_Fish",
         "isRelativeToParent": true,
         "position": {
