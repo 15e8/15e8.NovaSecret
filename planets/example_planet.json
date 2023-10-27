@@ -2,8 +2,8 @@
 	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
 	"name" : "Nova",
 	"Base": {
-		"groundSize": 500,
-    	"surfaceSize": 500,
+		"groundSize": 300,
+    	"surfaceSize": 300,
     	"surfaceGravity": 20,
     	"hasMapMarker": true,
 		"ambientLight": 1
@@ -20,7 +20,7 @@
 				"position": 
 				{
 					"x": 0,
-					"y": 501,
+					"y": 301,
 					"z": 0
 				},
 				"alignToNormal": true,
