@@ -6,7 +6,7 @@
     	"surfaceSize": 500,
     	"surfaceGravity": 20,
     	"hasMapMarker": true,
-		"ambientLight": 0.8
+		"ambientLight": 1
 		
 	},
 	"Orbit": {
@@ -38,7 +38,7 @@
 				"isRelativeToParent": true,
 				"position": {
 					"x": 0,
-					"y": 501,
+					"y": 0.2,
 					"z": 0
 				},
 				"name": "Talking Fish",
@@ -53,11 +53,27 @@
 				"isRelativeToParent": true,
 				"position": {
 					"x": 0,
-					"y": 501,
+					"y": 0.2,
 					"z": 0
 				},
 				"radius": 2
 			}
 		]
+	},
+	"Spawn": {
+		"playerSpawn": {
+			"startWithSuit": true,
+			"position": {
+				"x": 0,
+				"y": 501,
+				"z": 0
+			}
+		},
+		"shipSpawn": {
+			"position": {
+				"x": 0,
+				"y": 501,
+				"z": 0}
+		}
 	}
 }
