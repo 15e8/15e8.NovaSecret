@@ -1,49 +1,19 @@
 {
   "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
-  "name": "Timber_Hearth",
-  "Props": {
-    "details": [
-      {
-        "path": "Anglerfish_Body/Beast_Anglerfish",
-        "position": {
-          "x": 20,
-          "y": -50,
-          "z": 185
-        },
-        "scale": 0.01,
-        "rename": "Fishy",
-        "removeChildren": [
-          "B_angler_root/B_angler_body01/B_angler_body02/B_angler_antenna01/B_angler_antenna02/B_angler_antenna03/B_angler_antenna04/B_angler_antenna05/B_angler_antenna06/B_angler_antenna07/B_angler_antenna08/B_angler_antenna09/B_angler_antenna10/B_angler_antenna11/B_angler_antenna12_end"
-        ]
-      }
-    ],
-    "signals": [
-      {
-        "audio": "audio/Loreen - Tattoo.mp3",
-        "parentPath": "Sector/Fishy",
-        "isRelativeToParent": true,
-        "position": {
-          "x": 20,
-          "y": -50,
-          "z": 185
-        },
-        "name": "Fishy",
-        "frequency": "Traveler"
-      }
-    ],
-    "dialogue": [
-      {
-        "xmlFile": "planets/Dialogue/Talking_Fishy.xml",
-        "parentPath": "Sector/Fishy",
-        "pathToAnimController": "Sector/Fishy",
-        "isRelativeToParent": true,
-        "position": {
-          "x": 20,
-          "y": -50,
-          "z": 185
-        },
-        "radius": 3
+    "name": "Timber Hearth",
+    "Props": {
+        "dialogue": [
+        {
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+         },
+          "xmlFile": "planets/Dialogue/fishy.xml",
+          "pathToAnimController": "Sector_TH/Sector_Village/Sector_StartingCamp/Characters_StartingCamp/Villager_HEA_Slate/Villager_HEA_Slate_ANIM_LogSit",
+          "lookAtRadius": 3,
+          "radius": 2
       }
     ]
-  }
+ }
 }

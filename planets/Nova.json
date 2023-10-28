@@ -45,7 +45,7 @@
     ],
     "dialogue": [
       {
-        "xmlFile": "planets/Dialogue/Talking_Fish.xml",
+        "xmlFile": "planets/Dialogue/TalkingFish.xml",
         "parentPath": "Sector/Talking_Fish",
         "pathToAnimController": "Sector/Talking_Fish",
         "isRelativeToParent": true,

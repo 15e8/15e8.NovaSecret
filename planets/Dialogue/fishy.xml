@@ -1,0 +1,95 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>Slate2</NameField>
+
+	<DialogueNode>
+		<Name>START</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>Hey how are you.</Page>
+		</Dialogue>
+
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>I am good, how are you?</Text>
+				<DialogueTarget>1</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>I am doing terribly.</Text>
+				<DialogueTarget>2</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>who are you?</Text>
+				<DialogueTarget>3</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Goodbye.</Text>
+				<DialogueTarget>4</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+	
+	<DialogueNode>
+		<Name>1</Name>
+		<Dialogue>
+			<Page>I'm happy to hear that.</Page>
+			<Page>I'm doing as well as a talking fish sitting motionless forever on a plain white sphere can.</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Let's talk about something else.</Text>
+				<DialogueTarget>START</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>2</Name>
+		<Dialogue>
+			<Page>I'm sorry to hear that.</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Ok goodbye.</Text>
+				<DialogueTarget>4</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+	<DialogueNode>
+		<Name>3</Name>
+		<Dialogue>
+			<Page>Hello i am the talking fish.</Page>
+			<Page>I came from the dark brumble.</Page>
+			<Page>My story is:</Page>
+			<Page>My father told me about you, and how u learn about the nomai.</Page>
+			<Page>And sence i alwase want to know u better.</Page>
+			<Page>So i flew to this new planet and I hope u will come to me.</Page>
+			<Page>And here you are, because you came i want to tell u a secret.</Page>
+			<Page>Angler fishes actually can see and after u gone thay laugh at you because you are scard, we know that you are in a time loop</Page>
+			<Page>So we think its ok to eat you because u will come back. </Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Wow thx for saying that you are amazinm. Bye</Text>
+				<DialogueTarget>4</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Wow i can not belive that you did this to me, i don't want to talk with u again.</Text>
+				<DialogueTarget>5</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>4</Name>
+		<Dialogue>
+			<Page>Bye bye.</Page>
+		</Dialogue>
+	</DialogueNode>
+	<DialogueNode>
+		<Name>5</Name>
+		<Dialogue>
+			<Page>I am sorry, i didn't want to hurt you. Bye.</Page>
+		</Dialogue>
+	</DialogueNode>
+
+</DialogueTree>
