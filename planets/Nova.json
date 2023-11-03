@@ -2,9 +2,9 @@
   "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
   "name": "Nova",
   "Base": {
-    "groundSize": 300,
-    "surfaceSize": 300,
-    "surfaceGravity": 20,
+    "groundSize": 0,
+    "surfaceSize": 1500,
+    "surfaceGravity": 12,
     "hasMapMarker": true,
     "ambientLight": 1
   },
@@ -15,11 +15,23 @@
   "Props": {
     "details": [
       {
-        "path": "Anglerfish_Body/Beast_Anglerfish",
+        "assetBundle": "planets/assest/MyPlanet",
+        "path": "Assets/prefabs/MyPlanet.prefab",
         "position": {
           "x": 0,
-          "y": 301,
+          "y": 0,
           "z": 0
+        },
+        "alignRadial": false,
+        "keepLoaded": true,
+        "scale": 1500
+      },
+      {
+        "path": "Anglerfish_Body/Beast_Anglerfish",
+        "position": {
+          "x": 2,
+          "y": 1200,
+          "z": 2
         },
         "alignToNormal": true,
         "scale": 0.02,
