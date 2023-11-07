@@ -25,48 +25,36 @@
         "alignRadial": false,
         "keepLoaded": true,
         "scale": 1500
+      }
+    ],
+    "singularities": [
+      {
+        "type": "blackHole",
+        "horizonRadius": 1.5,
+        "position": {
+          "x": 0,
+          "y": 0.5,
+          "z": 0
+        },
+        "hasWarpEffects": true,
+        "renderQueueOverride": 3001,
+        "isRelativeToParent": true,
+        "uniqueID": "Enter",
+        "rename": "BH_e",
+        "pairedSingularity": "WH_NOM"
       },
       {
-        "path": "Anglerfish_Body/Beast_Anglerfish",
-        "position": {
-          "x": 2,
-          "y": 1200,
-          "z": 2
-        },
-        "alignToNormal": true,
-        "scale": 0.02,
-        "removeChildren": [
-          "B_angler_root/B_angler_body01/B_angler_body02/B_angler_antenna01/B_angler_antenna02/B_angler_antenna03/B_angler_antenna04/B_angler_antenna05/B_angler_antenna06/B_angler_antenna07/B_angler_antenna08/B_angler_antenna09/B_angler_antenna10/B_angler_antenna11/B_angler_antenna12_end"
-        ],
-        "rename": "Talking_Fish"
-      }
-    ],
-    "signals": [
-      {
-        "audio": "audio/Loreen - Tattoo.mp3",
-        "parentPath": "Sector/Talking_Fish",
-        "isRelativeToParent": true,
+        "type": "whiteHole",
         "position": {
           "x": 0,
-          "y": 0.2,
+          "y": 0,
           "z": 0
         },
-        "name": "Talking Fish",
-        "frequency": "Traveler"
-      }
-    ],
-    "dialogue": [
-      {
-        "xmlFile": "planets/Dialogue/TalkingFish.xml",
-        "parentPath": "Sector/Talking_Fish",
-        "pathToAnimController": "Sector/Talking_Fish",
+        "renderQueueOverride": 2501,
         "isRelativeToParent": true,
-        "position": {
-          "x": 0,
-          "y": 0.2,
-          "z": 0
-        },
-        "radius": 2
+        "uniqueID": "Enter",
+        "rename": "WH_e",
+        "pairedSingularity": "BH_NOM"
       }
     ]
   }
