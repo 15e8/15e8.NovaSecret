@@ -26,36 +26,6 @@
         "keepLoaded": true,
         "scale": 1500
       }
-    ],
-    "singularities": [
-      {
-        "type": "blackHole",
-        "horizonRadius": 1.5,
-        "position": {
-          "x": 0,
-          "y": 0.5,
-          "z": 0
-        },
-        "hasWarpEffects": true,
-        "renderQueueOverride": 3001,
-        "isRelativeToParent": true,
-        "uniqueID": "Enter",
-        "rename": "BH_e",
-        "pairedSingularity": "WH_NOM"
-      },
-      {
-        "type": "whiteHole",
-        "position": {
-          "x": 0,
-          "y": 0,
-          "z": 0
-        },
-        "renderQueueOverride": 2501,
-        "isRelativeToParent": true,
-        "uniqueID": "Enter",
-        "rename": "WH_e",
-        "pairedSingularity": "BH_NOM"
-      }
     ]
   }
 }
